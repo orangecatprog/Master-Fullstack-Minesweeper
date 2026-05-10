@@ -7,7 +7,7 @@ export const [open, close] = modalFrom((close) => generateForm(close), {
     title: "New Game",
 });
 
-const openModal = () => {
+export const openModal = () => {
     if (context.lockBoard) return;
     open();
 };

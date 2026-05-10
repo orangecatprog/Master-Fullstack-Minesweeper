@@ -1,4 +1,5 @@
 import { modalFrom } from "../../shared/modal/modal";
+import { open } from "../gen/modal";
 
 const body = document.createElement("div");
 body.className = "gameover-body";
